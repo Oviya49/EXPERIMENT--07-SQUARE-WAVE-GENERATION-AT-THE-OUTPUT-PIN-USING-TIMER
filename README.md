@@ -245,21 +245,20 @@ void assert_failed(uint8_t *file, uint32_t line)
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  
 ### FOR PULSE AT 500
-![7-1](https://github.com/user-attachments/assets/aa1e315e-6913-4842-8fc0-51d6d8364b47)
+![Screenshot 2025-05-07 160036](https://github.com/user-attachments/assets/68da8b46-aab8-44a0-b54b-78998995446b)
 
 ### FOR PULSE AT 600
-
-![7-2](https://github.com/user-attachments/assets/a707f3f5-da21-4863-9b17-da06b394669a)
+![Screenshot 2025-05-07 161210](https://github.com/user-attachments/assets/7a75c3aa-484a-47e4-9877-b93572ac499f)
 
 
 ### FOR PULSE AT 700
-![7-3](https://github.com/user-attachments/assets/b8e2f9c2-7d7d-482f-9903-978504ab3d6e)
+![Screenshot 2025-05-07 161334](https://github.com/user-attachments/assets/964ded0e-14cb-44db-8bcc-2e74ee4818c2)
 
 
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 ### FOR PULSE AT 500
-
+```
 TON = 3 * 10 * 10^-6
     = 0.00003
 TOFF= 3 * 10 * 10^-6
@@ -272,24 +271,24 @@ DUTY CYCLE = TON/(TON+TOFF)
            = 0.5
 DUTY CYCLE (IN PERCENTAGE) = 0.5 * 100
            = 50%   
-
+```
 ### FOR PULSE AT 600
-
+```
 TOTAL TIME = 0.0016667 s
 TON = 0.0008333 s
 TOFF = 0.0008333 s
 FREQUENCY = 600 Hz
 DUTY CYCLE = 50%
-
+```
 
 ### FOR PULSE AT 700
-
+```
 TOTAL TIME = 0.00142857 s
 TON = 0.00071429 s
 TOFF = 0.00071429 s
 FREQUENCY = 700 Hz
 DUTY CYCLE = 50%
-
+```
 
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated
